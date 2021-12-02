@@ -1,4 +1,4 @@
-11467381135967
+9828241315992
 OpenBCI_ESP32
 Conn_uSDcard
 
@@ -41,10 +41,3 @@ Through hole angled pin header THT 2x13 2.54mm double row
 0
 26
 26
-OpenBCI_ESP32
-SW_SPDT_CK-JS102011SAQN
-Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf
-switch spdt
-0
-3
-3
