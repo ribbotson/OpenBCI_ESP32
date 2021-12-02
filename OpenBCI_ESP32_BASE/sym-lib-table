@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name OpenBCI_ESP32)(type Legacy)(uri ${KIPRJMOD}/OpenBCI_ESP32.lib)(options "")(descr ""))
+  (lib (name uSD_Socket)(type Legacy)(uri "E:/Kicad projects/OpenBCI_ESP32_BASE/uSD_push-push_ebay.lib")(options "")(descr ""))
+)

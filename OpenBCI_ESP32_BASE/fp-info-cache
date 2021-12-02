@@ -1,0 +1,43 @@
+9828241315992
+OpenBCI_ESP32
+Conn_uSDcard
+
+
+0
+13
+9
+OpenBCI_ESP32
+ESP32-DevKitC
+ESP32-DevKitC: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
+ESP32
+0
+38
+38
+OpenBCI_ESP32
+PinHeaderReverse_2x02_P2.54mml_OpenBCI
+Through hole straight socket strip, 2x02, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x02 2.54mm double row
+0
+4
+4
+OpenBCI_ESP32
+PinHeaderReverse_2x03_P2.54mm_OpenBCI
+Through hole straight socket strip, 2x03, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x03 2.54mm double row
+0
+6
+6
+OpenBCI_ESP32
+PinHeaderReverse_2x08_P2.54mm_OpenBCI
+Through hole straight socket strip, 2x08, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x08 2.54mm double row
+0
+16
+16
+OpenBCI_ESP32
+PinHeader_2x13_P2.54mm_OpenBCI
+Through hole angled pin header, 2x13, 2.54mm pitch, 6mm pin length, double rows
+Through hole angled pin header THT 2x13 2.54mm double row
+0
+26
+26

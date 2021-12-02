@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name OpenBCI_ESP32)(type Legacy)(uri ${KIPRJMOD}/OpenBCI_ESP32.lib)(options "")(descr ""))
+)
