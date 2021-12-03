@@ -24,9 +24,9 @@ The design will continue to use the TI ADS1299 Analog Front end so perfomance sh
 >Use of more common generic components should help with procurement especially if using outsourced PCB Assembly
 
 
-!(OpenBCI_ESP32_BASE/esp32-devkitc.jpg "ESP32 DEVKIT C")
+![image](/OpenBCI_ESP32_BASE/esp32-devkitc.jpg "ESP32 DEVKIT C")
 
-!(OpenBCI_ESP32_BASE/OpenBCI_ESP32_BASE.JPG "OpenBCI ESP32 Base")
+![image](/OpenBCI_ESP32_BASE/OpenBCI_ESP32_BASE.JPG "OpenBCI ESP32 Base")
 
-!(OpenBCI_ESP32_BASE/OpenBCI_ESP32_INPUT.JPG "OpenBCI ESP32 Input")
+![image](/OpenBCI_ESP32_BASE/OpenBCI_ESP32_INPUT.JPG "OpenBCI ESP32 Input")
 
