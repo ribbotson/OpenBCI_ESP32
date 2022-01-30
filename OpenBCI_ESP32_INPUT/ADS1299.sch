@@ -108,7 +108,7 @@ Connection ~ 6450 1850
 Wire Wire Line
 	6450 1850 6450 1750
 Wire Wire Line
-	6100 2500 6850 2500
+	6100 2500 7150 2500
 Wire Wire Line
 	6100 2300 6200 2300
 Wire Wire Line
@@ -152,9 +152,6 @@ Wire Wire Line
 	7000 2100 7100 2100
 Wire Wire Line
 	7100 2100 7100 2300
-Connection ~ 7100 2300
-Wire Wire Line
-	7100 2300 7450 2300
 Wire Wire Line
 	6700 2100 6600 2100
 Wire Wire Line
@@ -646,7 +643,7 @@ F 3 "" H 8200 5450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6250 4900 6250 5050
-Text HLabel 7450 2300 2    50   Input ~ 0
+Text HLabel 7600 1925 2    50   Input ~ 0
 IBIAS
 Text HLabel 6950 2800 2    50   Input ~ 0
 ISRB1
@@ -885,7 +882,7 @@ Text Label 9150 2700 2    50   ~ 0
 DRDY
 Text Label 9150 2250 2    50   ~ 0
 CS
-Text Label 6850 2500 2    50   ~ 0
+Text Label 7925 2500 2    50   ~ 0
 BIAS_INV
 Wire Wire Line
 	6450 1850 6450 4300
@@ -1007,4 +1004,66 @@ Wire Wire Line
 Connection ~ 6250 3600
 Wire Wire Line
 	6250 3600 6250 4900
+$Comp
+L Device:R R26
+U 1 1 61ABADC2
+P 7350 2100
+F 0 "R26" V 7425 2175 50  0000 C CNN
+F 1 "0R" V 7275 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7280 2100 50  0001 C CNN
+F 3 "~" H 7350 2100 50  0001 C CNN
+	1    7350 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 61ABFBC4
+P 7350 1925
+F 0 "R25" V 7425 2000 50  0000 C CNN
+F 1 "0R" V 7275 1825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7280 1925 50  0001 C CNN
+F 3 "~" H 7350 1925 50  0001 C CNN
+	1    7350 1925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 2100 7550 1925
+Wire Wire Line
+	7550 1925 7600 1925
+Wire Wire Line
+	7550 1925 7500 1925
+Connection ~ 7550 1925
+Wire Wire Line
+	7200 2100 7100 2100
+Connection ~ 7100 2100
+Wire Wire Line
+	7200 1925 6600 1925
+Wire Wire Line
+	6600 1925 6600 2100
+Connection ~ 6600 2100
+Wire Wire Line
+	7500 2100 7550 2100
+$Comp
+L Device:R R27
+U 1 1 61B10026
+P 7350 2275
+F 0 "R27" V 7425 2350 50  0000 C CNN
+F 1 "0R" V 7275 2175 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7280 2275 50  0001 C CNN
+F 3 "~" H 7350 2275 50  0001 C CNN
+	1    7350 2275
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 2275 7550 2275
+Wire Wire Line
+	7550 2275 7550 2100
+Connection ~ 7550 2100
+Wire Wire Line
+	7200 2275 7150 2275
+Wire Wire Line
+	7150 2275 7150 2500
+Connection ~ 7150 2500
+Wire Wire Line
+	7150 2500 7925 2500
 $EndSCHEMATC

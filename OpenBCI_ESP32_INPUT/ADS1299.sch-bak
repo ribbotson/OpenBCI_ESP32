@@ -180,8 +180,6 @@ Wire Wire Line
 	6100 3900 6950 3900
 Wire Wire Line
 	6100 3800 6950 3800
-Wire Wire Line
-	6100 3600 6950 3600
 NoConn ~ 6100 3400
 NoConn ~ 6100 3300
 NoConn ~ 6100 3200
@@ -700,8 +698,6 @@ $EndComp
 Wire Wire Line
 	7700 3600 7300 3600
 Wire Wire Line
-	7700 3700 7300 3700
-Wire Wire Line
 	7700 3900 7300 3900
 Wire Wire Line
 	8200 4100 8650 4100
@@ -773,8 +769,6 @@ Wire Wire Line
 	7500 3350 7500 3500
 Wire Wire Line
 	7500 3500 7700 3500
-Text Label 6950 3600 2    50   ~ 0
-DSY_IN
 Text Label 6950 3800 2    50   ~ 0
 DIN
 Text Label 6950 3900 2    50   ~ 0
@@ -803,8 +797,6 @@ Text Label 8650 3900 2    50   ~ 0
 CS1
 Text Label 7300 3900 0    50   ~ 0
 CS2
-Text Label 7300 3700 0    50   ~ 0
-DSY_IN
 Text Label 8650 4100 2    50   ~ 0
 DIN
 Text Label 8650 3800 2    50   ~ 0
@@ -901,7 +893,7 @@ Wire Wire Line
 	6100 2600 6250 2600
 Connection ~ 6250 2600
 Wire Wire Line
-	6250 2600 6250 4900
+	6250 2600 6250 3600
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J4
 U 1 1 61A5989E
@@ -1009,4 +1001,10 @@ Wire Wire Line
 	7700 4000 7300 4000
 NoConn ~ 7700 3800
 NoConn ~ 7700 4100
+NoConn ~ 7700 3700
+Wire Wire Line
+	6100 3600 6250 3600
+Connection ~ 6250 3600
+Wire Wire Line
+	6250 3600 6250 4900
 $EndSCHEMATC
