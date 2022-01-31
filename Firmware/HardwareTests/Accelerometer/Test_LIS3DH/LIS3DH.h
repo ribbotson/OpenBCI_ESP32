@@ -9,6 +9,8 @@
 #ifndef __LIS3DH_H__
 #define __LIS3DH_H__
 
+#include <Arduino.h>
+
 #define READ_REG		0x80
 #define READ_MULTI		0x40
 
@@ -73,28 +75,27 @@ public:
 
 // Variables
 
-  int     DRDYpinValue;
-  int     lastDRDYpinValue;
-  short   axisData[3];
+  uint8_t     DRDYpinValue;
+  uint8_t     lastDRDYpinValue;
+  int16_t     axisData[3];
 
 // Functions
   LIS3DH();
   void    begin(void);
-  void    initialise_accel(byte);
-  void    enable_accel(byte);
+  void    init_accel(uint8_t);
+  void    enable_accel(uint8_t);
   void    disable_accel(void);
-  byte    get_device_ID(void)
-  byte    getDeviceID(void);
-  byte    read(byte);     // read a register on LIS3DH
-  int     read16(byte);    // read two bytes, used to get axis data
-  void    write(byte,byte);   // write a register on LIS3DH
+  uint8_t    get_device_ID(void);
+  uint8_t    read(uint8_t);     // read a register on LIS3DH
+  int16_t    read16(uint8_t);    // read two uint8_ts, used to get axis data
+  void    write(uint8_t,uint8_t);   // write a register on LIS3DH
   boolean DataReady(void); // check LIS3DH_DRDY pin
   boolean DataAvailable(void); // check LIS3DH STATUS_REG2
-  void    readAllRegs(void);
-  void    writeAxisDataSerial(void);
-  void    writeAxisDataForAxisSerial(uint8_t);
   void    updateAxisData(void);
   void    zeroAxisData(void);
+  int16_t get_X(void);
+  int16_t get_Y(void);
+  int16_t get_Z(void);
 };
 
 #endif // __LIS3DH_H__

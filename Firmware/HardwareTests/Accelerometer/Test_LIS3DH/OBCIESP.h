@@ -20,8 +20,8 @@
 #define ACCEL_PORT          I2C
 #define ACCEL_SDA_PIN       21
 #define ACCEL_SCL_PIN       22
-#define ACCEL_DRDY_PIN      27
-#define ACCEL_I2C_ADDRESS    0x30
+#define ACCEL_INT_PIN       27
+#define ACCEL_I2C_ADDRESS    0x19
 
 
 #define SDCARD_PORT         VSPI
@@ -39,7 +39,8 @@
 #define ADS1299_SSEL2_PIN   16
 #define ADS1299_RESET_PIN   17
 
-#define BATT_PORT       ADC1_CH0  // Ooops forgot this!
-#define BATT_PIN        36    // Not connected
+#define BATT_PORT       ADC1_CH0  // Measure 5V Rail
+#define BATT_PIN        36    // via 220k/120k divifder
+#define BATT_MAX        (3.3 * (220 + 120)/120)
 
 #endif // __OBCIESP_HW_H__

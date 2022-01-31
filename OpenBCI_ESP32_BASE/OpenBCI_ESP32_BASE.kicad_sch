@@ -479,6 +479,12 @@
     (path "/00000000-0000-0000-0000-0000619a7253/00000000-0000-0000-0000-000061a7ca1b"
       (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000619a7253/867a4a3d-7555-41bb-964a-c09677a9fea2"
+      (reference "#PWR08") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000619a7253/5c79db56-ad3d-42b9-b371-90b0967edd70"
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006197b8d4/00000000-0000-0000-0000-00006199b3fb"
       (reference "#PWR023") (unit 1) (value "+5V") (footprint "")
     )
@@ -596,6 +602,9 @@
     (path "/00000000-0000-0000-0000-0000619a7253/00000000-0000-0000-0000-000061ae3d0b"
       (reference "#PWR0115") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000619a7253/3d635ae3-cade-413c-b7fd-1c5c59d93f6b"
+      (reference "#PWR0116") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000619a7253/00000000-0000-0000-0000-000061a7b11f"
       (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -709,6 +718,18 @@
     )
     (path "/00000000-0000-0000-0000-00006197b8d4/070c992f-36cd-451b-81d8-a135d0e05579"
       (reference "R2") (unit 1) (value "NF") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-0000619a7253/9697916d-66b8-4aee-a817-e114bb15d21b"
+      (reference "R3") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-0000619a7253/098660ff-f93c-4ccb-8579-57628aa895a7"
+      (reference "R4") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-0000619a7253/bd77f63c-15a3-475d-b4fb-e3bf49c605ab"
+      (reference "R5") (unit 1) (value "220k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-0000619a7253/8b780154-3f92-431f-869f-e1b0c8ede39d"
+      (reference "R6") (unit 1) (value "120k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006197b8d4/8d7f84a3-3e93-452f-9cc3-e3e1de3df518"
       (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN")

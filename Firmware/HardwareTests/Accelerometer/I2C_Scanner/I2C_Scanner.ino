@@ -9,6 +9,7 @@
 void setup()
 {
   Serial.begin (115200);  
+  
   Wire.begin (ACCEL_SDA_PIN, ACCEL_SCL_PIN);   // sda= GPIO_21 /scl= GPIO_22
 }
 
@@ -27,7 +28,7 @@ void Scanner ()
       Serial.print ("Found address: ");
       Serial.print (i, DEC);
       Serial.print (" (0x");
-      Serial.print (i, HEX);     // PCF8574 7 bit address
+      Serial.print (i, HEX);     // 
       Serial.println (")");
       count++;
     }
