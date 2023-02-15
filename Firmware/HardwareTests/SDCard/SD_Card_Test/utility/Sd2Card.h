@@ -151,8 +151,8 @@ uint8_t const SD_CARD_TYPE_SDHC = 3;
  * \class Sd2Card
  * \brief Raw access to SD and SDHC flash memory cards.
  */
-#include <DSPI.h>
-#include <WProgram.h>
+//#include <DSPI.h>
+//#include <WProgram.h>
 class Sd2Card {
     public:
         /** Construct an instance of Sd2Card. */

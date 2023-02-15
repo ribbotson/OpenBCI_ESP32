@@ -39,14 +39,14 @@ class File : public Stream {
         virtual int available();
         virtual void flush();
         int read(void *buf, uint16_t nbyte);
-        boolean seek(uint32_t pos);
+        bool seek(uint32_t pos);
         uint32_t position();
         uint32_t size();
         void close();
         operator bool();
         char * name();
 
-        boolean isDirectory(void);
+        bool isDirectory(void);
         File openNextFile(uint8_t mode = O_RDONLY);
         void rewindDirectory(void);
         int8_t readDir(dir_t* dir);
@@ -69,7 +69,7 @@ public:
 	SDClass(Sd2Card& c) : card(&c) {}
   // This needs to be called to set up the connection to the SD card
   // before other methods are used.
-  boolean begin(uint8_t csPin = SD_CHIP_SELECT_PIN);
+  bool begin(uint8_t csPin = SD_CHIP_SELECT_PIN);
   
   // Open the specified file/directory with the supplied mode (e.g. read or
   // write, etc). Returns a File object for interacting with the file.
@@ -77,16 +77,16 @@ public:
   File open(const char *filename, uint8_t mode = FILE_READ);
 
   // Methods to determine if the requested file path exists.
-  boolean exists(char *filepath);
+  bool exists(char *filepath);
 
   // Create the requested directory heirarchy--if intermediate directories
   // do not exist they will be created.
-  boolean mkdir(char *filepath);
+  bool mkdir(char *filepath);
   
   // Delete the file.
-  boolean remove(char *filepath);
+  bool remove(char *filepath);
   
-  boolean rmdir(char *filepath);
+  bool rmdir(char *filepath);
 
 private:
 
@@ -98,7 +98,7 @@ private:
   int fileOpenMode;
   
   friend class File;
-  friend boolean callback_openPath(SdFile&, char *, boolean, void *); 
+  friend bool callback_openPath(SdFile&, char *, bool, void *); 
 };
 
 extern SDClass SD;

@@ -25,18 +25,11 @@ void setup()
   Serial.begin(9600);
   Serial.print("\nInitializing SD card...");
 
-  // Make sure the default chip select pin is set to so that
-  // shields that have a device that use the default CS pin
-  // that are connected to the SPI bus do not hold drive bus
-  pinMode(chipSelect_SD_default, OUTPUT);
-  digitalWrite(chipSelect_SD_default, HIGH);
 
-  pinMode(chipSelect_SD, OUTPUT);
-  digitalWrite(chipSelect_SD, HIGH);
 
   // we'll use the initialization code from the utility libraries
   // since we're just testing if the card is working!
-  if (!card.init(SPI_HALF_SPEED, chipSelect_SD)) {
+  if (!card.init(SPI_HALF_SPEED, 5)) {
     Serial.println("initialization failed. Things to check:");
     Serial.println("* is a card is inserted?");
     Serial.println("* Is your wiring correct?");
