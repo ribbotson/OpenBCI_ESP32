@@ -197,7 +197,7 @@
         (number "F2" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 17.78 22.86 180) (length 2.54)
-        (name "TSTN" (effects (font (size 1.27 1.27))))
+        (name "TESTN" (effects (font (size 1.27 1.27))))
         (number "F3" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 17.78 -30.48 180) (length 2.54)

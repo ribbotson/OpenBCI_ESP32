@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name OpenBCI_ESP32)(type KiCad)(uri ${KIPRJMOD}/OpenBCI_ESP32.pretty)(options "")(descr ""))
+)
