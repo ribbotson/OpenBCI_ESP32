@@ -2094,12 +2094,12 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b56580fb-a904-4a65-979d-f056107b74c5)
   )
-  (text "U7 ADS1298RIZXGR\n64pin TI NFBGA Package 0.8mm pitch 8 x 8\nDatasheet: https://www.ti.com/lit/ds/symlink/ads1298r.pdf\nPackage data: https://www.ti.com/lit/an/spraa99c/spraa99c.pdf\nPads are SMD Solder Mask defined Pad diameter= 0.5mm Mask aperture = 0.4mm\nJLCPCB min track for 6 layer boards is 0.09mm\nJLCPCB minimum via for 6 layer boards is 0.2mm hole size 0.4mm hole size\nVia in Pad for vias of BGA at via hole size 0.2mm"
+  (text "U7 ADS1298RIZXGR\n64pin TI NFBGA Package 0.8mm pitch 8 x 8\nDatasheet: https://www.ti.com/lit/ds/symlink/ads1298r.pdf\nPackage data: https://www.ti.com/lit/an/spraa99c/spraa99c.pdf\nPads are SMD Solder Mask defined Pad diameter= 0.554mm Mask aperture = 0.4mm\nJLCPCB min track for 6 layer boards is 0.09mm\nJLCPCB minimum via for 6 layer boards is 0.2mm drill size 0.45mm pad size\nVia in Pad for vias of BGA at via hole size 0.2mm"
     (at 22.225 191.77 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e8827d10-3b91-42bf-af65-646c9500a18d)
   )
-  (text "PCB Stackup\nTop: Circuit Traces, Ground fill\nInner 1: Ground\nInner 2: 3.3V\nInner 3: +2.5V\nInner 4: -2.5V\nBottom: Circuit Traces, ground fill"
+  (text "PCB Stackup\nTop: Circuit Traces, ground fill\nInner 1: Ground\nInner 2: 3.3V\nInner 3: +2.5V\nInner 4: -2.5V\nBottom: Circuit Traces, ground fill"
     (at 22.225 168.91 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fe7884ab-ff0c-43eb-baee-30fc8b98e707)
