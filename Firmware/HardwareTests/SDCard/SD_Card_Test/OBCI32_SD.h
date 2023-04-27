@@ -102,6 +102,6 @@ private:
 };
 
 extern SDClass SD;
-extern uint8_t errno;
+//extern int * __errno;
 
 #endif

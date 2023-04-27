@@ -2017,7 +2017,7 @@
     (property "Reference" "C39" (at 113.411 108.6866 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1u" (at 113.411 110.998 0)
+    (property "Value" "10n" (at 113.411 110.998 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 111.4552 113.665 0)
